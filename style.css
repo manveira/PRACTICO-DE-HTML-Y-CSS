@@ -1,0 +1,237 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #202124;
+}
+
+/* header */
+.header-container
+{
+    width: 100%;
+    height: 60px; 
+    padding: 6px;
+}
+
+.nav-header 
+{
+    display: flex;
+    justify-content: flex-end;
+    height: auto; 
+}
+
+.ul-header
+{
+    float: right;
+    height: auto;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    padding: 5px;
+}
+
+.div-ul-header-left
+{
+   display: inherit;
+   margin-right: 40px;
+   margin-left: 0px;
+   margin-top: 0;
+   margin-bottom: 0;
+}
+
+.div-ul-header-left li
+{
+    margin-right: 15px;
+}
+.div-ul-header-left a
+{
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+}
+
+.div-ul-header-right
+{
+    display: inherit; 
+}
+
+.div-ul-header-right figure
+{
+    margin-right: 10px;
+    margin-left: 0px;
+    margin-top: 0;
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.figure-punticos img
+{   
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+    margin-left: -20px;
+    cursor: pointer;
+}
+
+.figure-jmanve img
+{
+    width: 35px;
+    height: 35px;
+    object-fit: cover;
+    margin-left: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 50%;
+}
+
+
+/* main */
+
+main
+{
+    margin-top: 150px;
+    text-align: center;
+}
+
+.main-logo img
+{
+    height: 92px;
+    width: 272px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+.main-input
+{
+    height: 39px;
+    width: 560px; 
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+.main-input-container
+{
+    width: 550px;
+    border-radius: 100px;
+    border: 2px solid #ecedef;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.main-input-container input
+{
+    width: 487px;
+    height: 34px;
+    border:none;
+    outline: none;
+}
+
+.main-input-container:hover
+{
+    box-shadow: 0 1px 6px 0 #20212447;
+    border-color: #dfe1e500;
+}
+
+.search-icon
+{
+    background-image: url("https://img.icons8.com/android/24/000000/search.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 12px;
+    height: 12px;  
+}
+
+.micro-icon
+{
+    background-image: url("./images/microphone_icon.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.main-buttons
+{
+    width: 530px;
+    margin: 0 auto;   
+}
+
+.main-buttons div
+{
+    display: inline-block;
+}
+
+.main-buttons button
+{
+    height: 36px;
+    background-color: #f2f2f2;
+    border: 0;
+    font-size: 14px;
+    color: #5f6368;
+    border-radius: 5px;
+    padding: 0 15px;
+    margin-right: 15px;
+}
+
+.main-buttons button:hover
+{
+    cursor: pointer;
+    border: 1px solid #f8f9fa;
+    color: #222;
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+}
+
+
+/* footer */
+
+footer
+{
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    font-size: 13px;
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+}
+
+footer ul
+{
+    margin: 10px;
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+}
+
+footer .footer-left
+{
+    justify-content: left;
+}
+
+footer .footer-right
+{
+    justify-content: right;
+}
+
+footer ul li a
+{
+    margin: 10px;
+    color: #5f6368;
+    text-decoration: none;
+}
